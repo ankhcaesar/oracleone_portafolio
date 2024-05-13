@@ -305,10 +305,6 @@ section.experience {
     display: flex;
 }
 
-.experience__box:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
 .experience__img {
     width: 70%;
 }
@@ -323,6 +319,10 @@ section.experience {
 
 .experience__text {
     margin: 10PX 0;
+}
+
+.experience__description{
+    gap:5px ;
 }
 
 .experience__boton__repo {

@@ -6,7 +6,7 @@ const formulario = document.querySelector("[data-form]");
 
 
 formulario.addEventListener("submit", (e) => {
-  e.preventDefault();
+  //e.preventDefault();
   const contMensaje = {
     nombre: e.target.elements["nombre"].value,
     email: e.target.elements["email"].value,
@@ -41,6 +41,5 @@ function verificarCampo(campo) {
     mensajeError.textContent = mensaje;
   } else {
     mensajeError.textContent = "";
-
   }
 }

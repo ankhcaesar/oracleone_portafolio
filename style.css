@@ -198,10 +198,6 @@ section.skills {
     height: 174px;
     background-color: var(--color-de-fondo-base);
     gap: 100px;
-}
-
-.skills__box:nth-child(1),
-.skills__box:nth-child(6) {
     box-shadow: 0px 1px 1px;
 }
 
@@ -234,14 +230,9 @@ section.hobbies {
     height: 174px;
     background-color: var(--color-de-fondo-base);
     gap: 100px;
-}
-
-.hobbies__box:nth-child(3),
-.hobbies__box:nth-child(4),
-.hobbies__box:nth-child(5),
-.hobbies__box:nth-child(6) {
     box-shadow: 0px 1px 1px;
 }
+
 
 .hobbies__box li {
     margin: 10px;

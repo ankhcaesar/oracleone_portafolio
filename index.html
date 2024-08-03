@@ -5,255 +5,333 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Referencia de la hoja de estilo de Css -->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Fuente del Proyecto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <title> Mi Portafolio</title>
 </head>
 
 <body>
-    <!-- Sección del Menú  -->
-    <div class="todo">
-        <section class="menu">
-            <header class="menu__header">
-                <img src="assets\vector.png">
-                <p class="menu__title">Julio Cesar Niveyro</p>
-            </header>
-            <nav>
-                <ul class="menu__list">
-                    <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-                    <li class="menu__list__item"><a href="#skills">Habilidades</a></li>
-                    <li class="menu__list__item"><a href="#hobbies">Aficiones</a></li>
-                    <li class="menu__list__item"><a href="#formacion">Formación</a></li>
-                    <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                    <li class="menu__list__item"><a href="#contacto">juliocesaroniv@gmail.com</a></li>
+    <section class="header_container">
+
+        <header class="header_menu">
+            <p class="menu__title">Julio Cesar Niveyro</p>
+        </header>
+        <nav>
+            <ul class="menu__list">
+                <li class="menu__list__item"><a href="#about">Sobre mi</a></li>
+                <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+                <li class="menu__list__item"><a href="#experience">Proyectos</a></li>
+                <li class="menu__list__item"><a href="#contacto">juliocesaroniv@gmail.com</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <main>
+
+        <section class="title_container">
+            <div class="left">
+                <h1 class="title__bio">Soy Julio Cesar</h1>
+                <h1 class="title__bio">programador junior frontend </h1>
+                <h5 class="title__subsection">Autodidacta, respetuoso, creativo.</h5>
+
+                <ul class="title__network">
+                    <li class="title__network__item"><a href="https://github.com/ankhcaesar" target="_blank">Github
+                            <img src="assets\arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/juliocesaroniv/"
+                            target="_blank">Linkedin
+                            <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://www.instagram.com/juliocesaroniv/"
+                            target="_blank">Instagram
+                            <img src="assets\arrow.png"></a></li>
                 </ul>
-            </nav>
-        </section>
-
-        <!-- Sección del Header/Title/Hero -->
-        <section class="title">
-            <div class="title__div">
+            </div>
+            <div class="right">
                 <img class="title__profile" src="assets\profile.png">
-                <div class="title__container">
-                    <h1 class="title__bio">Soy Julio Niveyro y voy camino a ser Front-End</h1>
-                    <h5 class="title__subsection">Emprendedor, cocinero, administrativo y actualmente
-                        participando del proyecto Oracle ONE en Alura Latam.</h5>
-                    <ul class="title__network">
-                        <!-- Pon los enlaces de tus redes sociales favoritas -->
-                        <li class="title__network__item"><a href="https://github.com/ankhcaesar" target="_blank">Github
-                                <img src="assets\arrow.png"> </a></li>
-                        <li class="title__network__item"><a href="https://www.linkedin.com/in/juliocesaroniv/"
-                                target="_blank">Linkedin
-                                <img src="assets\arrow.png"></a></li>
-                        <li class="title__network__item"><a href="https://www.instagram.com/juliocesaroniv/"
-                                target="_blank">Instagram
-                                <img src="assets\arrow.png"></a></li>
-                        <!--
-                        <li class="title__network__item"><a href="" target="_blank">Currículum <img src="assets\arrow.png"></a></li>
-                        -->
-                    </ul>
+            </div>
+
+        </section>
+
+        <section class="about" id="about">
+            <div class="about_bk">
+                <div class="about__container">
+                    <h2 class="about__title">Sobre mi</h2>
+                    <p class="about__paragraph">A mis 45 años viví en 2 países, 5 ciudades. Cocinero, vendedor, chofer,
+                        electricista, cajero, encargado, soporte técnico informático y muchas tareas más. Descubrí que
+                        el
+                        diseño me llama, que el código me atrae. De muy chico abrace la tecnología y hoy después de
+                        tanto
+                        caminar decidí hacer aquello que me enamoró de muy niño... desarrollar paginas, aplicaciones,
+                        estar
+                        con la tecnología en el dia a dia, pensar soluciones para mejorar el entorno.</p>
+                    <p class="about__paragraph">Solo queda seguir adelante en este nuevo-viejo camino de realizar mis
+                        sueños
+                        y acompañar a otros a realizarlos también.</p>
+                    <img class="about__signature" src="assets/firma_negro.png">
+                    <!--   
+                        <div class="about__signature"><img src="assets/firma_negro.png"></div>
+            -->
                 </div>
             </div>
         </section>
 
-        <!-- Sección sobre mi -->
-        <section class="about" id="sobre-mi">
-            <div class="about__container">
-                <h2 class="about__title">Sobre mi</h2>
-                <p class="about__paragraph">A mis 45 años viví en 2 países, 5 ciudades. Cocinero, vendedor, chofer,
-                    electricista, cajero, encargado, soporte técnico informático y muchas tareas más. Descubrí que el
-                    diseño me llama, que el código me atrae. De muy chico abrace la tecnología y hoy después de tanto
-                    caminar decidí hacer aquello que me enamoró de muy niño... desarrollar paginas, aplicaciones, estar
-                    con la tecnología en el dia a dia, pensar soluciones para mejorar el entorno.</p>
-                <p class="about__paragraph">Solo queda seguir adelante en este nuevo-viejo camino de realizar mis sueños
-                    y acompañar a otros a realizarlos también.</p>
-                <img class="about__signature" src="assets/firma_negro.png">
-            </div>
-        </section>
-
-        <!-- Sección de Skills -->
-        <section class="skills" id="skills">
-            <h2 class="skills__title">Habilidades </h2>
-            <div class="skills__line">
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"><img src="assets\htlm.png"></li>
-                        <li class="skills__name"> HTML 5</li>
-                    </ul>
+        <section class="boxs" id="skills">
+            <div class="boxs__container">
+                <h2 class="boxs__title">Hard skills </h2>
+                <div class="boxs__line">
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="boxs__img"><img src="assets\html.svg"></li>
+                            <li class="boxs__name"> HTML 5</li>
+                        </ul>
+                    </div>
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="boxs__img"> <img src="assets\js.svg" alt=""></li>
+                            <li class="boxs__name">Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="boxs__img"><img src="assets\node.svg" alt=""></li>
+                            <li class="boxs__name">Node JS</li>
+                        </ul>
+                    </div>
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="boxs__img"> <img src="assets\react.svg" alt=""> </li>
+                            <li class="boxs__name">React</li>
+                        </ul>
+                    </div>
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="sboxs_img"> <img src="assets\css.svg" alt=""> </li>
+                            <li class="boxs__name">CSS</li>
+                        </ul>
+                    </div>
                 </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
-                        <li class="skills__name">Javascript</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
-                        <li class="skills__name">Node JS</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
-                        <li class="skills__name">React</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
-                        <li class="skills__name">CSS</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Sección de Hobbies -->
-        <section class="hobbies" id="hobbies">
-            <h2 class="hobbies__title">Aficiones</h2>
-            <div class="hobbies__line">
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt=""></li>
-                        <li class="hobbies__name">Tocar guitarra</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
-                        <li class="hobbies__name">Oir música</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"><img src="assets\tv_icon.png" alt=""></li>
-                        <li class="hobbies__name">Ver séries</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
-                        <li class="hobbies__name">Cocinar</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
-                        <li class="hobbies__name">Tomar fotos</li>
-                    </ul>
+                <h2 class="boxs__title">Soft skills </h2>
+                <div class="boxs__line">
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="boxs__img"> <img src="assets\agile.svg" alt=""></li>
+                            <li class="boxs__name">Método Agile</li>
+                        </ul>
+                    </div>
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="boxs__img"> <img src="assets\autodis.svg" alt=""> </li>
+                            <li class="boxs__name"> Auto disciplina </li>
+                        </ul>
+                    </div>
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="boxs__img"> <img src="assets\equipo.svg" alt=""> </li>
+                            <li class="boxs__name"> Trabajo en equipo </li>
+                        </ul>
+                    </div>
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="boxs__img"><img src="assets\comunicacion.svg" alt=""> </li>
+                            <li class="boxs__name"> Comunicacion </li>
+                        </ul>
+                    </div>
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="boxs__img"><img src="assets\selflearn.svg" alt=""> </li>
+                            <li class="boxs__name"> Autodidacta </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Sección de Formación académica -->
+        <section class="boxs" id="hobbies">
+            <div class="boxs__container">
+
+                <h2 class="boxs__title">Hobbies</h2>
+                <div class="boxs__line">
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="boxs__img"> <img src="assets\guitar.svg" alt=""></li>
+                            <li class="boxs__name">Tocar guitarra</li>
+                        </ul>
+                    </div>
+
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="boxs__img"> <img src="assets\musica.svg" alt=""></li>
+                            <li class="boxs__name">Oir música</li>
+                        </ul>
+                    </div>
+
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="boxs__img"><img src="assets\series.svg" alt=""></li>
+                            <li class="boxs__name">Ver séries</li>
+                        </ul>
+                    </div>
+
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="boxs__img"> <img src="assets\cocinar.svg" alt=""> </li>
+                            <li class="boxs__name">Cocinar</li>
+                        </ul>
+                    </div>
+
+                    <div class="boxs__box">
+                        <ul>
+                            <li class="boxs__img"> <img src="assets\fotos.svg" alt=""> </li>
+                            <li class="boxs__name">Tomar fotos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
         <section class="academic" id="formacion">
-            <h2 class="academic__title">Formación académica</h2>
-            <div class="academic__courses">
-                <div class="academic__courses__box">
-                    <ul class="academic__courses__list">
-
-                        <li class="academic__courses__item__img"><img src="./assets/egg.png"></li>
-                        <li class="academic__courses__item__title">
-                            <h4>Programacion desde cero</h4>
-                        </li>
-                        <li class="academic__courses__item__subtitle">
-                            <p>2021 - EGG live</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="academic__courses__box">
-                    <ul class="academic__courses__list">
-                        <li class="academic__courses__item__img"><img src="./assets/aluraoone.png"></li>
-                        <li class="academic__courses__item__title">
-                            <h4>Formación Front End</h4>
-                        </li>
-                        <li class="academic__courses__item__subtitle">
-                            <p>2024 - Alura</p>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Sección de Experiencia Profesional/Proyectos-->
-        <section class="experience" id="xp">
-            <h2 class="experience__section__title">Experiencia</h2>
-
-            <div class="experience__content">
-                <div class="experience__box">
-                    <img class="experience__img" src="./assets/proyencriptador.png">
-                    <div class="experience__info">
-                        <h4 class="experience__title">Encriptador de texto</h4>
-                        <p class="experience__text">Challenge Alura Codificador </p>
-                        <div class="experience__description">
-                            <span class="experience__repo"><a href="https://github.com/ankhcaesar/oracleone_encriptador"
-                                    target="_blank"><button
-                                        class="experience__boton__repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href="https://oracleone-encriptador.vercel.app"
-                                    target="_blank"><button class="experience__boton__demo">Ver
-                                        demo</button></a></span>
+            <div class="academic_bk">
+                <div class="academic__container">
+                    <h2 class="academic__title">Formación académica</h2>
+                    <div class="academic__line">
+                        <div class="academic__box">
+                            <ul class="academic__box__list">
+                                <li class="academic__box__item__img"><img src="./assets/egg.png"></li>
+                                <li class="academic__box__item__title">
+                                    <h4>Programacion desde cero</h4>
+                                </li>
+                                <li class="academic__box__item__subtitle">
+                                    <p>2021 - EGG live</p>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-                </div>
 
-                <div class="experience__box">
-                    <img class="experience__img" src="./assets/proynumerosecreto.png">
-                    <div class="experience__info">
-                        <h4 class="experience__title">Juego creado con HTML y JavaScript</h4>
-                        <p class="experience__text">Challenge Oracle </p>
-                        <div class="experience__description">
-                            <span class="experience__repo"><a
-                                    href="https://github.com/ankhcaesar/oracleone_numerosecreto" target="_blank"><button
-                                        class="experience__boton__repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href="https://oracleone-numerosecreto.vercel.app"
-                                    target="_blank"><button class="experience__boton__demo">Ver
-                                        demo</button></a></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="experience__box">
-                    <img class="experience__img" src="./assets/proybarberia.png">
-                    <div class="experience__info">
-                        <h4 class="experience__title">Pagina creada con HTML y es responsive</h4>
-                        <p class="experience__text">Challenge Oracle </p>
-                        <div class="experience__description">
-                            <span class="experience__repo"><a href="https://github.com/ankhcaesar/oracleone_barberia"
-                                    target="_blank"><button
-                                        class="experience__boton__repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href="https://oracleone-barberia.vercel.app"
-                                    target="_blank"><button class="experience__boton__demo">Ver
-                                        demo</button></a></span>
+                        <div class="academic__box">
+                            <ul class="academic__box__list">
+                                <li class="academic__box__item__img"><img src="./assets/aluraoone.png"></li>
+                                <li class="academic__box__item__title">
+                                    <h4>Formación Front End</h4>
+                                </li>
+                                <li class="academic__box__item__subtitle">
+                                    <p>2024 - Alura</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="experience" id="experience">
+
+
+            <div class="experience__container">
+                <h2 class="experience__title">Experiencia</h2>
+                <div class="experiencie__line">
+                    <div class="experience__box">
+                        <img class="experience__img" src="./assets/proyencriptador.png">
+                        <div class="experience__info">
+                            <h4 class="experience__title">Encriptador de texto</h4>
+                            <p class="experience__text">Challenge Alura Codificador </p>
+
+                            <div class="experience__buttons">
+                                <a class="button__repo" href="https://github.com/ankhcaesar/oracleone_encriptador"
+                                    target="_blank">
+                                    Repositório
+                                </a>
+                                <a class="button__demo" href="https://oracleone-encriptador.vercel.app" target="_blank">
+                                    Ver demo
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="experience__box">
+                        <img class="experience__img" src="./assets/proynumerosecreto.png">
+                        <div class="experience__info">
+                            <h4 class="experience__title">Juego creado con HTML y JavaScript</h4>
+                            <p class="experience__text">Challenge Oracle </p>
+
+                            <div class="experience__buttons">
+
+                                <a class="button__repo" href="https://github.com/ankhcaesar/oracleone_numerosecreto"
+                                    target="_blank">
+                                    Repositório
+                                </a>
+
+
+
+                                <a class="button__demo" href="https://oracleone-numerosecreto.vercel.app"
+                                    target="_blank">
+                                    Ver demo
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="experience__box">
+                        <img class="experience__img" src="./assets/proybarberia.png">
+                        <div class="experience__info">
+                            <h4 class="experience__title">Pagina creada con HTML y es responsive</h4>
+                            <p class="experience__text">Challenge Oracle </p>
+
+                            <div class="experience__buttons">
+
+                                <a class="button__repo" href="https://github.com/ankhcaesar/oracleone_barberia"
+                                    target="_blank">
+                                    Repositório
+                                </a>
+
+                                <a class="button__demo" href="https://oracleone-barberia.vercel.app" target="_blank">
+                                    Ver demo
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="experience__box">
+                        <img class="experience__img" src="./assets/proyectoaluraflix.png">
+                        <div class="experience__info">
+                            <h4 class="experience__title">aluraFlix</h4>
+                            <p class="experience__text">Challenge Oracle </p>
+
+                            <div class="experience__buttons">
+
+                                <a class="button__repo" href="https://github.com/ankhcaesar/oracleone_ALURAFLIX"
+                                    target="_blank">
+                                    Repositório
+                                </a>
+
+                                <a class="button__demo" href="https://oracleone-aluraflix.vercel.app" target="_blank">
+                                    Ver demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </section>
-        <!-- Sección de Contacto -->
-        <section class="formcontacto" id="contacto">
+
+        <section class="contacto" id="contacto">
 
             <div class="formcontacto__container">
 
-                <div class="formcontacto__imagen">
-                    <img class="formcontacto__img" src="assets\contact_image.png">
+                <div class="formcontacto__izquierda">
+                    <img class="formcontacto__img" src="assets\contact-bg.jpg">
                 </div>
 
-                <div class="formcontacto__text">
+                <div class="formcontacto__derecha">
+
                     <h2 class="formcontacto__title">Contacto</h2>
                     <p class="formcontacto__subtext">¿Quieres contactarme?</p>
                     <p class="formcontacto__subtext">Completa el siguiente formulario y me pondré en contacto con
@@ -273,7 +351,7 @@
                             maxlength="50" required>
                         <span class="asunto__mensajeError error"></span>
 
-                        <textarea class="formcontacto__textarea" id="mensaje" rows="5" cols="40" id="mensage"
+                        <textarea class="formcontacto__textarea" id="mensaje" rows="7" cols="40" id="mensage"
                             name="mensaje" placeholder="Mensaje" maxlength="300" required></textarea>
                         <span class="mensaje__mensajeError error"></span>
 
@@ -283,18 +361,22 @@
                 </div>
 
             </div>
+
         </section>
 
-        <!-- Sección de Footer -->
-        <section class="footer">
-            <div class="footer__container">
-                <img class="footer__imagen" src="assets/jconivit.png" alt="Logo Julio Niveyro"></img>
-                <p class="footer__nombre">Julio Cesar Niveyro</p>
-                <p class="footer__ano">2024</p>
-            </div>
-        </section>
-    </div>
+    </main>
+
+    <footer>
+        <div class="footer__container">
+            <img class="footer__imagen" src="assets/jconivit.png" alt="Logo JCONIV"></img>
+            <p class="footer__nombre">JCONIV</p>
+            <p class="footer__ano">2024</p>
+        </div>
+    </footer>
+
+
     <script src="validacion.js" type="module"></script>
+
 </body>
 
 </html>

@@ -773,7 +773,7 @@ footer {
     }
 
     .boxs__container{
-        margin: 15px 0 0 8px;
+        margin: 15px 0 0 10px;
     }
 
     .boxs__line {
@@ -798,7 +798,7 @@ footer {
     .formcontacto__izquierda {
         position: relative;
         left: 43%;
-        width: 97%;
+        width: 90%;
     }
 
 
@@ -813,7 +813,7 @@ footer {
     }
 
     .formcontacto__derecha {
-        width: 97%;
+        width: 90%;
         position: relative;
         left: -43%;
     }

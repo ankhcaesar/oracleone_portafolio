@@ -769,11 +769,11 @@ footer {
 
     /*                                                         SKILLS & hobbies*/
     .boxs {
-        width: 93%;
+        width: 90%;
     }
 
     .boxs__container{
-        margin: 15px 0 0 5px;
+        margin: 15px 0 0 8px;
     }
 
     .boxs__line {
